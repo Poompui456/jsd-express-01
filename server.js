@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello Client!");
+  res.send("Hello USER, I am your Server ^u^");
 });
 
 // Declare a simple array called “members” to temporarily store members
@@ -80,5 +80,5 @@ app.put("/members/:id", (req, res) => {
 const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT} ✅ 🙌`);
+  console.log(`🦄 Server running on port ${PORT} 🎉`);
 });
